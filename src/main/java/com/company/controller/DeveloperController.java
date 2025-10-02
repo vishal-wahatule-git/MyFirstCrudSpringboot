@@ -14,7 +14,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.util.ArrayList;
 import java.util.List;
 
-//"/id=" ""
+//
 @RestController
 @RequestMapping("/developer")
 public class DeveloperController {
