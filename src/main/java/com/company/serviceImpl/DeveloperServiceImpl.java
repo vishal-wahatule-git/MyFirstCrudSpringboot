@@ -24,7 +24,7 @@ public class DeveloperServiceImpl implements DeveloperService
     @Override
     public List<Developer> getAllDeveloper() {
         List<Developer> developerList = developerRepository.findAll();
-        System.out.println();
+ 
         return developerList;
     }
 
